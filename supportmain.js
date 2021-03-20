@@ -32,9 +32,9 @@ function getNumberBackgroundColor(num){
 
 function getNumberColor(num){
     if(num <= 4){
-        return "green";
+        return "#ff69b4";
     }
-    return "gray";
+    return "#f73f3fec";
 }
 
 function noSpace(board){
