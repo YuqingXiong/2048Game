@@ -13,7 +13,7 @@ function getPosLeft(i, j){
 
 function getNumberBackgroundColor(num){
     switch(num){
-        case 2: return "#ffff"; break;
+        case 2: return "#adf790"; break;
         case 4: return "#87cefa"; break;
         case 8: return "#00fa9a"; break;
         case 16: return "#e4f73c"; break;
@@ -32,9 +32,9 @@ function getNumberBackgroundColor(num){
 
 function getNumberColor(num){
     if(num <= 4){
-        return "#ff69b4";
+        return "#ffffff";
     }
-    return "#f73f3fec";
+    return "#ffffff";
 }
 
 function noSpace(board){
