@@ -14,18 +14,18 @@ function getPosLeft(i, j){
 function getNumberBackgroundColor(num){
     switch(num){
         case 2: return "#ffff"; break;
-        case 4: return "#ffff"; break;
-        case 8: return "#ffff"; break;
-        case 16: return "#ffff"; break;
-        case 32: return "#ffff"; break;
-        case 64: return "#ffff"; break;
-        case 128: return "#ffff"; break;
-        case 256: return "#ffff"; break;
-        case 512: return "#ffff"; break;
-        case 1024: return "#ffff"; break;
-        case 2048: return "#ffff"; break;
-        case 4096: return "#ffff"; break;
-        case 8192: return "#ffff"; break;
+        case 4: return "#87cefa"; break;
+        case 8: return "#00fa9a"; break;
+        case 16: return "#e4f73c"; break;
+        case 32: return "#ffc400"; break;
+        case 64: return "#ff6600"; break;
+        case 128: return "#ff4500"; break;
+        case 256: return "#ff0000"; break;
+        case 512: return "#663399"; break;
+        case 1024: return "#800080"; break;
+        case 2048: return "#310258"; break;
+        case 4096: return "#200017"; break;
+        case 8192: return "#200017"; break;
     }
     return "black";
 }
