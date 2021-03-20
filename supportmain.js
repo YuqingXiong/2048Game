@@ -31,9 +31,6 @@ function getNumberBackgroundColor(num){
 }
 
 function getNumberColor(num){
-    if(num <= 4){
-        return "#ffffff";
-    }
     return "#ffffff";
 }
 
