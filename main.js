@@ -309,7 +309,7 @@ function moveDown(){
                         board[i][j] = 0;
                         continue;
                     }
-                    else if(board[k][j] == board[i][j] && noBlockHorizontal(j, i, k, board) && !hasConflicted[k][j]){
+                    else if(board[k][j] == board[i][j] && noBlockHorizontalCol(j, i, k, board) && !hasConflicted[k][j]){
                         showMoveAnimation(i, j, k, j);
                         board[k][j] += board[i][j];
                         board[i][j] = 0;
